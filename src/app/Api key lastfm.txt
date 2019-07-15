@@ -1,0 +1,7 @@
+Here are the details of your new API account.
+
+Application name	Musicfy
+API key	a2cbdf2e17636c0db8abeff3806fecc5
+Shared secret	f1ff75094e8916ae215b2152795193c1
+Registered to	raphaelboury
+Please keep a copy of these details, either by saving the page or taking a screenshot, as we don't currently provide the ability to look up accounts.
