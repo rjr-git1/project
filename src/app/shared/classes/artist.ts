@@ -1,4 +1,4 @@
-export class Music {
+export class Artist {
   'id': string;
   'name': string;
   'picture': string;
