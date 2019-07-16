@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Artist } from '../classes/artist';
 import { environment } from 'src/environments/environment';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -18,10 +19,12 @@ export class ApiServiceService {
   }
 
   // get artist by id
+  /*
   getArtist$(id: string) {
     this.apiURL +=id;
     return this.http.get<Artist>(this.apiURL);
-  }
+  }*/
 
 
 
+}
