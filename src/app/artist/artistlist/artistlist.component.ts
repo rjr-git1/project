@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Artist } from 'src/app/shared/classes/artist';
+import { ApiServiceService } from 'src/app/shared/services/api-service.service';
 
 @Component({
   selector: 'app-artistlist',
@@ -6,8 +8,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./artistlist.component.scss']
 })
 export class ArtistlistComponent implements OnInit {
+ allArtists : Artist;
 
-  constructor() { }
+  constructor(private apiServ : ApiServiceService) { }
+
+  pullArtists(){
+    this.allArtists = this.apiServ.pullArtists()
+  }
 
   ngOnInit() {
   }

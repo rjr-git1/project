@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Artist } from '../classes/artist';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -9,7 +10,7 @@ export class ApiServiceService {
 
   private apiURL = `${environment.API_URL}artists`;
 
-  constructor(private http:HttpClient) { }
+  constructor(private http: HttpClient) { }
 
   // pulls the whole list
   pullArtists$(){
