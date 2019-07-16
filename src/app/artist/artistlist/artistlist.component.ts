@@ -9,15 +9,16 @@ import { ApiServiceService } from 'src/app/shared/services/api-service.service';
   styleUrls: ['./artistlist.component.scss']
 })
 export class ArtistlistComponent implements OnInit {
- //allArtists : Artist;
+ allArtists : any;
 
   constructor(private apiServ : ApiServiceService) { }
 
- /* pullArtists(){
-    this.allArtists = this.apiServ.pullArtists()
-  }*/
+pullArtists(){
+    this.apiServ.pullArtists$().subscribe(response => this.allArtists =response)}
+
 
   ngOnInit() {
+    this.pullArtists();
   }
 
 }
