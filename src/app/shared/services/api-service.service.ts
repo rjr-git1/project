@@ -7,4 +7,11 @@ import { HttpClient } from '@angular/common/http';
 export class ApiServiceService {
 
   constructor(private http:HttpClient) { }
+
+  getArtists$(){
+    return this.http.get('http://localhost:3000/artists')};
+
+
 }
+
+
