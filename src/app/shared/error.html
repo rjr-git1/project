@@ -1,0 +1,105 @@
+<div>
+    <h1>4<img src="/Devimg/hn-logo.png" height="80">4</h1>
+
+    <h2>Looks like we’re in the ether.</h2>
+
+    <p>Technology breaks sometimes. We apologize for the inconvenience, and hope to improve whatever path led you here.</p>
+
+    <div class="links">
+      <a href="https://hackernoon.com">Go Home</a>
+      <a href="https://community.hackernoon.com/session/sso?return_path=https%3A%2F%2Fapp.hackernoon.com">Start Writing</a>
+      <a href="https://community.hackernoon.com">Explore the Community</a>
+      <a href="https://help.hackernoon.com">Get Support</a>
+    </div>
+
+    <p>You can visit the <a href="https://hackernoon.com">homepage</a> to find some interesting tech stories about <a href="https://hackernoon.com/tagged/cryptocurrency">cryptocurrency</a>, <a href="https://hackernoon.com/tagged/software">software</a>, <a href="https://hackernoon.com/tagged/blockchain">blockchain</a>, <a href="https://hackernoon.com/tagged/startups">startups</a>, <a href="https://hackernoon.com/tagged/futurism">futurism</a> and more. If you’re looking to communicate with people beyond this 404 ether, you can also start writing or meet the <a href="https://community.hackernoon.com">community</a>. Hacker Noon is reachable via <a href="mailto:support@hackernoon.com">Support@HackerNoon.com</a> for any feedback, concerns or ideas.
+
+    </p><h3>Back to the Internet!</h3>
+  </div>
+
+  <style>
+      @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:700');
+      body {
+        font-family: 'IBM Plex Mono', monospace;
+        color: #111;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      h1 {
+        color: #3c3c3c;
+        font-size: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+      }
+
+      h2 {
+        font-size: 45px;
+        margin-top: 20px;
+      }
+
+      h3 {
+        font-size: 30px;
+        margin-top: 50px;
+      }
+
+      p {
+        font-size: 16px;
+        margin: 30px 10px;
+        max-width: 800px;
+        text-align: left;
+        line-height: 24px;
+      }
+
+      .links {
+        font-size: 20px;
+        width: 100%;
+        margin: 0 auto 30px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .links a {
+        margin: 0 15px;
+      }
+
+      a {
+        color: #111;
+        text-decoration: none;
+        position: relative;
+      }
+
+      a::before {
+        content: "";
+        position: absolute;
+        bottom: 2px;
+        left: 0;
+        right: 0;
+        top: calc(100% - 7px);
+        background: rgba(0, 255, 0, 0.4);
+        z-index: -1;
+        transition: all 120ms ease-in-out;
+      }
+
+      a:hover::before {
+        background: rgba(0, 255, 0, 1);
+        top: -2px;
+        bottom: -2px;
+      }
+
+      @media screen and (max-width: 768px) {
+        .links {
+          flex-direction: column;
+          width: 60vw;
+        }
+        .links a {
+          margin: 10px 0;
+        }
+        p {
+          max-width: 100vw;
+        }
+      }
+    </style>

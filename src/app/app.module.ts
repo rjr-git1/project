@@ -6,14 +6,18 @@ import { AppComponent } from './app.component';
 import { CommonModule } from '@angular/common';
 import { ArtistModule } from './artist/artist.module';
 import { CommonsModule } from './commons/commons.module';
-import { ArtistlistComponent } from './artist/artistlist/artistlist.component';
+
 import { HttpClientModule } from '@angular/common/http';
+
+import { FormBuilder } from '@angular/forms';
+import { UserModule } from './user/user.module';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
+
 
 
   ],
@@ -23,11 +27,12 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule,
     CommonModule,
     ArtistModule,
-    CommonsModule
+    CommonsModule,
+    UserModule,
 
 
   ],
-  providers: [],
+  providers: [FormBuilder],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
