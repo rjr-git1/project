@@ -1,5 +1,5 @@
 .profile-pic{
-  max-width:20%;
+  max-width:60%;
   height:auto;
 }
 
@@ -9,5 +9,17 @@
 
 ul{
   list-style-type: none;
+
 }
 
+.artist-listing{
+  display: flex;
+  justify-content: space-around;
+  padding-top:4rem;
+  margin-left: 6rem;
+
+}
+
+.artist-card{
+
+}

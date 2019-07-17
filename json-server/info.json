@@ -1,0 +1,140 @@
+
+         {
+          "artists": [
+            {
+              "id": 1,
+              "name": "Tash Sultana",
+              "picture": "http://1ryzas42x65e2oosia40bgli.wpengine.netdna-cdn.com/wp-content/uploads/2018/08/tash.jpg",
+              "genre": [
+                "Alternative",
+                "Indie"
+              ],
+              "album": "Flow State",
+              "cover": "https://lh3.googleusercontent.com/r5OYiF_yY4MGK9Kt1TZD9bqaH9tZTUhMSnOw2YTlhBEoRAZJYcC_BEkWn-Nlk-W2S_rwaqEwy4Pzgfw=w302-h302-l90-rj",
+              "release": 2018,
+              "songs": [
+                "Seed",
+                "Big Smoke",
+                "Cigarettes",
+                "Murder to the mind",
+                "Seven",
+                "Salvation",
+                "Pink Moon",
+                "Mellow Marmalade",
+                "Harvest Love",
+                "Mystik",
+                "Free Mind",
+                "Blackbird",
+                "Outro"
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Ramstein",
+              "picture": "https://www.hannover.de/var/storage/images/media/01-data-neu/bilder/redaktion-hannover.de/2016/2016_12/v%C3%B6lkerball/13775343-1-ger-DE/V%C3%B6lkerball_alias_400x300px.jpg",
+              "genre": [
+                "Metal"
+              ],
+              "album": "Untitled",
+              "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Rammstein_-_Rammstein.png/220px-Rammstein_-_Rammstein.png",
+              "release": 2019,
+              "songs": [
+                "Deutschland",
+                "Radio",
+                "Zeig Dich",
+                "Auslander",
+                "Sex",
+                "Puppe",
+                "Was ich liebe",
+                "Diamant",
+                "Weit weg",
+                "Tattoo",
+                "Hallomann"
+              ]
+            },
+            {
+              "id": 3,
+              "name": "Damso",
+              "picture": "https://d139alkik3slzs.cloudfront.net/wp-content/uploads/2017/12/damso-1.jpg",
+              "genre": [
+                "French Rap"
+              ],
+              "album": "Ipseité",
+              "cover": "https://lh3.googleusercontent.com/KftG_wIcxZvvwiK6-esOCpPbAUrXBk4PypkkkgDYgBVvZlmpAplZUvkBVNiA6MZjzXi5HeO1EezDfJRU=w302-h302-l90-rj",
+              "release": 2017,
+              "songs": [
+                "Α. Nwaar Is The New Black",
+                "B. #QuedusaalVie",
+                "Γ.Mosaïque solitaire",
+                "Δ. Dieu ne ment jamais",
+                "Ε. Signaler",
+                "Ζ. Kietu",
+                "Η. Gova",
+                "Θ. Macarena",
+                "Ι. Peur d'être père (featuring Youri)",
+                "Κ. Kin la belle",
+                "Λ. Lové",
+                "Μ. Noob Saibot",
+                "N. J Respect R",
+                "Ξ. Une âme pour deux"
+              ]
+            },
+           
+            {
+              "id": 4,
+              "name": "Booba",
+              "picture": "https://www.bowerypresents.com/media/image/558059/800/600?s=e0ad5d47b4e78ad599c5e3bd257eaf535a816d79718c7d3c2c7aa55201bfe1d3",
+              "genre": [
+                "French Rap"
+              ],
+              "album": "Trône",
+              "cover": "https://lh3.googleusercontent.com/5gFsQhF2j3rqwLjVo96GnXR4HPcdav1RPtLA2HqgwL4_ON0HODxjW00xqZz2YwDpPztJ2QwoFrh0-rmB=w302-h302-l90-rj",
+              "release": 2017,
+              "songs": [
+                "Centurion",
+                "Friday",
+                "Drapeau noir",
+                "Trône",
+                "Bouyon",
+                "Magnifique",
+                "Ça va aller",
+                "Nougat",
+                "Terrain",
+                "A la folie",
+                113,
+                "Ridin",
+                "Petite fille",
+                "DKR",
+                "É.L.É.P.H.A.N.T",
+                "Tout ira bien"
+              ]
+            },
+            {
+              "id": 5,
+              "name": "Wizkid",
+              "picture": "https://4.bp.blogspot.com/-7dwNW9QA5PE/WOn7-1NwkKI/AAAAAAAAK9c/4tdeu689-swE8f3qz1mIIcpa-DYbSF3SwCLcB/s1600/Wizkid-Come-Closer.jpg",
+              "genre": [
+                "Afrobeat",
+                "Dancehall"
+              ],
+              "album": "Sounds from the Other Side",
+              "cover": "https://lh3.googleusercontent.com/yb61ugATGnD-qCtgOH-kT_fsThoHadNGI5NQIecH1i81qv8YSyl6sroHYKmEe3PD0jMUtQjNoaDpDY6ROQ=w302-h302-l90-rj",
+              "release": 2017,
+              "songs": [
+                "Sweet Love",
+                "Come Closer",
+                "Naughty Ride",
+                "African Bad Gyal",
+                "Daddy Yo",
+                "One for Me",
+                "Picture Perfect",
+                "Nobody",
+                "Sexy",
+                "All for Love",
+                "Dirty Wine",
+                "Gbese"
+              ]
+            }
+          ]
+        }
+        
